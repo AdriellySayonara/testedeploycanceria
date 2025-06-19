@@ -1,0 +1,111 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="file:///{pdf_style_path}">
+</head>
+<body>
+    <div class="header">
+        <img class="imagemHeader" src="file:///{pdf_ufpe_logo_path}" />
+        <div class="infoHeader">
+            <strong>Sistema Câncer App</strong> <br>
+            Centro de Biomedicina UFPE
+        </div>
+    </div>
+    <div class="content">
+        <div class="containerCenter">
+            <div class="title">Relatorio do Sistema</div>
+        </div>
+
+        <div>
+            <table class="fixed">
+                <tr>
+                    <td class="tableHeader">Clinica: </td>
+                    <td>UFPE</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Requerente: </td>
+                    <td>Prof. Welington</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="containerCenter">
+            <div class="subtitle">Dados Paciente</div>
+        </div>
+
+        <div>
+            <table class="fixed">
+                <tr>
+                    <td class="tableHeader">Nome: </td>
+                    <td>{patient_name}</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Numero do SUS: </td>
+                    <td>{patient_numSUS}</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Data de Nascimento: </td>
+                    <td>{patient_dataNasc}</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Observação: </td>
+                    <td>{patient_obs}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="containerCenter">
+            <div class="subtitle">Resultado do Classificador</div>
+        </div>
+        <div>
+            <table class="fixed">
+                <tr>
+                    <td class="tableHeader">Identificador do Exame: </td>
+                    <td>{exam_title}</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Nome do classificador: </td>
+                    <td>{classifier_name}</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Resultado: </td>
+                    <td>{exam_label}</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Resultado para Programadores: </td>
+                    <td>{exam_result}</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    
+    <div class="content new-page">
+        <div class="header">
+            <img class="imagemHeader" src="file:///{pdf_ufpe_logo_path}" />
+            <div class="infoHeader">
+                <strong>Sistema Câncer App</strong> <br>
+                Centro de Biomedicina UFPE
+            </div>
+        </div>
+        <div class="containerCenter">
+            <div class="title">Relatorio do Sistema</div>
+        </div>
+
+        <div class="containerCenter">
+            <div class="subtitle">Imagem do Exame</div>
+        </div>
+
+
+        <div class="containerCenter">
+            <!--
+                <img class="imgExame" src="file:///c:/Users/RIAN/Desktop/AppCancer/ufpe.jpg"  />
+            -->
+            <img class="imgExame" src="data:;base64,{exam_image_base64}"  />
+        </div>
+
+    </div>
+
+
+</body>
+</html>
