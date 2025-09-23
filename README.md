@@ -91,7 +91,7 @@ If you use ThermoBreastAI in your research, please cite the software and the ori
   journal = {Journal of Open Source Software},
   year = {2025},
   doi = {10.5281/zenodo.17180534},
-  url = {https://github.com/riansco14/ThermoBreastAI}
+  url = {https://github.com/AdriellySayonara/testedeploycanceria}
 }
 
 
