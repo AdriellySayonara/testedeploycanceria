@@ -4,104 +4,65 @@ title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classificati
 
 tags:
 
-&nbsp; - medical imaging
+- medical imaging
 
-&nbsp; - breast cancer
+	- breast cancer
 
-&nbsp; - infrared thermography
+	- infrared thermography
 
-&nbsp; - transfer learning
+	- transfer learning
 
-&nbsp; - computer-aided diagnosis
+	- computer-aided diagnosis
 
-&nbsp; - deep learning
+	- deep learning
 
-&nbsp; - machine learning
+	- machine learning
 
-&nbsp; - python
+	- python
 
 authors:
 
-&nbsp; - name: Rian Rabelo de Azevedo
-
-&nbsp;   orcid: 0000-0000-0000-0000
-
-&nbsp;   affiliation: "1"
-
-&nbsp; - name: Adrielly Sayonara de Oliveira Silva
-
-&nbsp;   orcid: 0009-0004-2220-8053
-
-&nbsp;   affiliation: "2"
-
-&nbsp; - name: José Barbosa de Araújo Neto
-
-    orcid: 0009-0007-4994-1695
-
-    affiliation: "2"
-
-  - name: Camila Tiodista de Lima
-
-    orcid: 0009-0007-6013-7059
-
-    affiliation: "2"
-
-  - name: Flávio Secco Fonseca
-
-    orcid: 0000-0003-4956-1135
-
-    affiliation: "1"
-
-  - name: Ana Clara Gomes da Silva
-
-    orcid: 0000-0000-0000-0000
-
-    affiliation: "2"
-
-  - name: Clarisse Lima
-
-    orcid: 0000-0000-0000-0000
-
-    affiliation: "2"
-
-  - name: Maíra Araújo de Santana
-
-    orcid: 0000-0002-1796-7862
-
-    affiliation: "2"
-
-  - name: Juliana Carneiro Gomes
-
-    orcid: 0000-0002-0785-0767
-
-    affiliation: "2"
-
-  - name: Giselle Machado Magalhães Moreno 
-
-    orcid: 0000-0000-0000-0000
-
-    affiliation: "2"
-
-&nbsp; - name: Wellington Pinheiro dos Santos
-
-&nbsp;   orcid: 0000-0003-2558-6602
-
-&nbsp;   affiliation: "1" and "2"
+	- name: Rian Rabelo de Azevedo
+	orcid: 0000-0000-0000-0000
+	affiliation: "1"
+	-name: Adrielly Sayonara de Oliveira Silva
+	orcid: 0009-0004-2220-8053
+	affiliation: "2"
+ 	-name: José Barbosa de Araújo Neto
+	orcid: 0009-0007-4994-1695
+	 affiliation: "2"
+  	- name: Camila Tiodista de Lima
+    	orcid: 0009-0007-6013-7059
+   	 affiliation: "2"
+  	- name: Flávio Secco Fonseca
+    	orcid: 0000-0003-4956-1135
+    	affiliation: "1"
+ 	 - name: Ana Clara Gomes da Silva
+    	orcid: 0000-0000-0000-0000
+    	affiliation: "2"
+	  - name: Clarisse Lima
+   	 orcid: 0000-0000-0000-0000
+  	  affiliation: "2"
+  	- name: Maíra Araújo de Santana
+   	 orcid: 0000-0002-1796-7862
+    	affiliation: "2"
+ 	 - name: Juliana Carneiro Gomes
+   	 orcid: 0000-0002-0785-0767
+  	  affiliation: "2"
+  	- name: Giselle Machado Magalhães Moreno 
+  	  orcid: 0000-0000-0000-0000
+    	affiliation: "2"
+	- name: Wellington Pinheiro dos Santos
+	 orcid: 0000-0003-2558-6602
+	affiliation: "1" and "2"
 
 affiliations:
 
-&nbsp;- name: Programa de Pós-Graduação em Engenharia de Computação, Universidade de Pernambuco, Brazil
-
-&nbsp;  index: 1
-
-\- name: Departamento de Engenharia Biomédica, Universidade Federal de Pernambuco, Brazil
-
-   index: 2
-
-
-
+	- name: Programa de Pós-Graduação em Engenharia de Computação, Universidade de Pernambuco, Brazil
+	 index: 1
+	- name: Departamento de Engenharia Biomédica, Universidade Federal de Pernambuco, Brazil
+	 index: 2
 date: 12 May 2025
-
 bibliography: paper.bib
 
 ---
@@ -190,7 +151,7 @@ However, these approaches often suffer from critical limitations:
 
 
 
-\## Key Features
+\# Key Features
 
 
 
@@ -208,7 +169,7 @@ However, these approaches often suffer from critical limitations:
 
 
 
-\## Example Usage
+\# Example Usage
 
 
 
@@ -228,7 +189,7 @@ model = HybridClassifier(cnn\_model='ResNet', classifier='RandomForest')
 
 image\_paths = \["path/to/malignant.jpg", "path/to/healthy.jpg"]
 
-labels = \[1, 0]  # 1 = malignant, 0 = healthy
+labels = \[1, 0]  \#1 = malignant, 0 = healthy
 
 model.fit(image\_paths, labels)
 
@@ -240,7 +201,7 @@ test\_paths = \["path/to/new\_image.jpg"]
 
 prediction = model.predict(test\_paths)
 
-print(f"Diagnosis: {'Malignant' if prediction\[0] == 1 else 'Healthy'}")
+print(f"Diagnosis: \{'Malignant' if prediction\[0] == 1 else 'Healthy'\}")
 
 
 
@@ -248,13 +209,13 @@ print(f"Diagnosis: {'Malignant' if prediction\[0] == 1 else 'Healthy'}")
 
 \# metrics = model.score(test\_paths, test\_labels)
 
-\# print(f"Sensitivity: {metrics\['sensitivity']:.3f}")
+\# print(f"Sensitivity: \{metrics\['sensitivity']:.3f\}")
 
 ```
 
 
 
-\## Installation \& Testing
+\# Installation \& Testing
 
 
 
