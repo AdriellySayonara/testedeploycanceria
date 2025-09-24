@@ -45,7 +45,7 @@ orcid: 0000-0000-0000-0000
 affiliation: "2"
 - name: Wellington Pinheiro dos Santos
 orcid: 0000-0003-2558-6602
-affiliation: "1" and "2"
+affiliation: "1 , 2"
 
 # affiliations:
 
