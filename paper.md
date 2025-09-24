@@ -14,7 +14,7 @@
 
 # authors:
 - name: Rian Rabelo de Azevedo
-orcid: 0000-0000-0000-0000
+orcid: 0009-0003-1816-9576
 affiliation: "1"
 -name: Adrielly Sayonara de Oliveira Silva
 orcid: 0009-0004-2220-8053
@@ -29,10 +29,10 @@ affiliation: "2"
 orcid: 0000-0003-4956-1135
 affiliation: "1"
 - name: Ana Clara Gomes da Silva
-orcid: 0000-0000-0000-0000
+orcid: 0000-0002-2823-5763
 affiliation: "2"
 - name: Clarisse Lima
-orcid: 0000-0000-0000-0000
+orcid: 0000-0003-1198-8627
 affiliation: "2"
 - name: Maíra Araújo de Santana
 orcid: 0000-0002-1796-7862
@@ -41,7 +41,7 @@ affiliation: "2"
 orcid: 0000-0002-0785-0767
 affiliation: "2"
 - name: Giselle Machado Magalhães Moreno 
-orcid: 0000-0000-0000-0000
+orcid: 0000-0003-4076-3494
 affiliation: "2"
 - name: Wellington Pinheiro dos Santos
 orcid: 0000-0003-2558-6602
