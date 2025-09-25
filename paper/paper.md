@@ -221,7 +221,7 @@ python -m pytest tests -v
 
 
 
-This work was developed as part of the Master’s program at Universidade de Pernambuco, with support from Hospital das Clínicas da UFPE for dataset access. We thank the open-source communities of Python, TensorFlow, scikit-learn, and pytest.
+This work was developed as part of the Master’s program at Universidade de Pernambuco, with support from Hospital das Clínicas da UFPE for dataset access. We thank the open-source communities of Python, TensorFlow, scikit-learn, and pytest. This software is released under the GNU General Public License v3.0 to ensure proper attribution to the original authors and to uphold the principles of ethical and reciprocal reuse in scientific software.
 
 
 
