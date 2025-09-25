@@ -1,4 +1,4 @@
-
+---
 # Title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification'
 
 # tags:
@@ -14,60 +14,55 @@
 
 # authors:
 - name: Rian Rabelo de Azevedo
-orcid: 0009-0003-1816-9576
-affiliation: "1"
--name: Adrielly Sayonara de Oliveira Silva
-orcid: 0009-0004-2220-8053
-affiliation: "2"
- -name: José Barbosa de Araújo Neto
-orcid: 0009-0007-4994-1695
-affiliation: "2"
+  orcid: 0009-0003-1816-9576
+  affiliation: "1"
+- name: Adrielly Sayonara de Oliveira Silva
+  orcid: 0009-0004-2220-8053
+  affiliation: "2"
+- name: José Barbosa de Araújo Neto
+  orcid: 0009-0007-4994-1695
+  affiliation: "2"
 - name: Camila Tiodista de Lima
-orcid: 0009-0007-6013-7059
-affiliation: "2"
+  orcid: 0009-0007-6013-7059
+  affiliation: "2"
 - name: Flávio Secco Fonseca
-orcid: 0000-0003-4956-1135
-affiliation: "1"
+  orcid: 0000-0003-4956-1135
+  affiliation: "1"
 - name: Ana Clara Gomes da Silva
-orcid: 0000-0002-2823-5763
-affiliation: "2"
+  orcid: 0000-0002-2823-5763
+  affiliation: "2"
 - name: Clarisse Lima
-orcid: 0000-0003-1198-8627
-affiliation: "2"
+  orcid: 0000-0003-1198-8627
+  affiliation: "2"
 - name: Maíra Araújo de Santana
-orcid: 0000-0002-1796-7862
-affiliation: "2"
+  orcid: 0000-0002-1796-7862
+  affiliation: "2"
 - name: Juliana Carneiro Gomes
-orcid: 0000-0002-0785-0767
-affiliation: "2"
+  orcid: 0000-0002-0785-0767
+  affiliation: "2"
 - name: Giselle Machado Magalhães Moreno 
-orcid: 0000-0003-4076-3494
-affiliation: "2"
+  orcid: 0000-0003-4076-3494
+  affiliation: "2"
 - name: Wellington Pinheiro dos Santos
-orcid: 0000-0003-2558-6602
-affiliation: "1 , 2"
+  orcid: 0000-0003-2558-6602
+  affiliation: "1 , 2"
 
 # affiliations:
 
 - name: Graduate Program in Computer Engineering, University of Pernambuco, Brazil
-index: 1
+  index: 1
 - name: Department of Biomedical Engineering, Federal University of Pernambuco, Brazil
-index: 2
-date: 12 May 2025
-bibliography: paper.bib
-
-
-
+  index: 2
+  date: 12 May 2025
+  bibliography: paper.bib
+---
 
 # Summary
 
-
-
 **ThermoBreastAI** is a Python library for computer-aided diagnosis of breast cancer using infrared thermography. It implements a hybrid artificial intelligence approach that combines transfer learning — using frozen pre-trained convolutional neural networks (MobileNetV2, VGG19, ResNet) for feature extraction — with classical machine learning classifiers (Random Forest, KNN, Naive Bayes) for diagnostic prediction. Originally developed to support the research presented in [@azevedo2025], this library provides a modular, extensible, and reproducible framework for researchers working on thermal breast cancer screening, particularly valuable in low-resource settings where access to mammography is limited.
 
-
-
 While general-purpose medical imaging libraries exist, few offer specialized, validated pipelines for thermographic analysis. **ThermoBreastAI** fills this gap by providing exact implementations of a hybrid AI workflow optimized for small medical datasets, enabling reproducible research and clinical decision support.
+
 
 
 
@@ -75,7 +70,7 @@ While general-purpose medical imaging libraries exist, few offer specialized, va
 
 
 
-Breast cancer is the most prevalent cancer among women worldwide [@sung2021]. Despite advances in screening, challenges such as accessibility, patient discomfort, and radiation exposure remain — especially in developing regions [@inca2022, @santana2018breast, @macedo2021breast]. Infrared thermography offers a safe, non-invasive, low-cost alternative but suffers from subjective interpretation and lack of standardized analysis tools [@singh2020].
+Breast cancer is the most prevalent cancer among women worldwide [@sung2021]. Despite advances in screening, challenges such as accessibility, patient discomfort, and radiation exposure remain — especially in developing regions [@inca2022]. Infrared thermography offers a safe, non-invasive, low-cost alternative but suffers from subjective interpretation and lack of standardized analysis tools [@singh2020].
 
 
 
@@ -132,13 +127,11 @@ However, these approaches often suffer from critical limitations:
 - Providing **standardized evaluation metrics** (accuracy, sensitivity, specificity) and **automated hyperparameter tuning** via `GridSearchCV`.
 
 
-
 # Software Description / Functionality
 
 
 
 **ThermoBreastAI** offers a comprehensive suite of tools for preprocessing, feature extraction, classification, and evaluation of breast thermograms. It combines an intuitive Python interface with robust machine learning backends.
-
 
 
 # Key Features
