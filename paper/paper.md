@@ -1,60 +1,59 @@
 ---
-# Title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification'
+title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification'
 
-# tags:
+tags:
+  - medical imaging
+  - breast cancer
+  - infrared thermography
+  - transfer learning
+  - computer-aided diagnosis
+  - deep learning
+  - machine learning
+  - python
 
-- medical imaging
-- breast cancer
-- infrared thermography
-- transfer learning
-- computer-aided diagnosis
-- deep learning
-- machine learning
-- python
+authors:
+  - name: Rian Rabelo de Azevedo
+    orcid: 0009-0003-1816-9576
+    affiliation: "1"
+  - name: Adrielly Sayonara de Oliveira Silva
+    orcid: 0009-0004-2220-8053
+    affiliation: "2"
+  - name: José Barbosa de Araújo Neto
+    orcid: 0009-0007-4994-1695
+    affiliation: "2"
+  - name: Camila Tiodista de Lima
+    orcid: 0009-0007-6013-7059
+    affiliation: "2"
+  - name: Flávio Secco Fonseca
+    orcid: 0000-0003-4956-1135
+    affiliation: "1"
+  - name: Ana Clara Gomes da Silva
+    orcid: 0000-0002-2823-5763
+    affiliation: "2"
+  - name: Clarisse Lima
+    orcid: 0000-0003-1198-8627
+    affiliation: "2"
+  - name: Maíra Araújo de Santana
+    orcid: 0000-0002-1796-7862
+    affiliation: "2"
+  - name: Juliana Carneiro Gomes
+    orcid: 0000-0002-0785-0767
+    affiliation: "2"
+  - name: Giselle Machado Magalhães Moreno 
+    orcid: 0000-0003-4076-3494
+    affiliation: "2"
+  - name: Wellington Pinheiro dos Santos
+    orcid: 0000-0003-2558-6602
+    affiliation: "1,2"
 
-# authors:
-- name: Rian Rabelo de Azevedo
-  orcid: 0009-0003-1816-9576
-  affiliation: "1"
-- name: Adrielly Sayonara de Oliveira Silva
-  orcid: 0009-0004-2220-8053
-  affiliation: "2"
-- name: José Barbosa de Araújo Neto
-  orcid: 0009-0007-4994-1695
-  affiliation: "2"
-- name: Camila Tiodista de Lima
-  orcid: 0009-0007-6013-7059
-  affiliation: "2"
-- name: Flávio Secco Fonseca
-  orcid: 0000-0003-4956-1135
-  affiliation: "1"
-- name: Ana Clara Gomes da Silva
-  orcid: 0000-0002-2823-5763
-  affiliation: "2"
-- name: Clarisse Lima
-  orcid: 0000-0003-1198-8627
-  affiliation: "2"
-- name: Maíra Araújo de Santana
-  orcid: 0000-0002-1796-7862
-  affiliation: "2"
-- name: Juliana Carneiro Gomes
-  orcid: 0000-0002-0785-0767
-  affiliation: "2"
-- name: Giselle Machado Magalhães Moreno 
-  orcid: 0000-0003-4076-3494
-  affiliation: "2"
-- name: Wellington Pinheiro dos Santos
-  orcid: 0000-0003-2558-6602
-  affiliation: "1 , 2"
+affiliations:
+  - name: Graduate Program in Computer Engineering, University of Pernambuco, Brazil
+    index: 1
+  - name: Department of Biomedical Engineering, Federal University of Pernambuco, Brazil
+    index: 2
 
-# affiliations:
-
-- name: Graduate Program in Computer Engineering, University of Pernambuco, Brazil
-  index: 1
-- name: Department of Biomedical Engineering, Federal University of Pernambuco, Brazil
-  index: 2
-  date: 12 May 2025
-  bibliography: paper.bib
+date: 12 May 2025
+bibliography: paper.bib
 ---
 
 # Summary
