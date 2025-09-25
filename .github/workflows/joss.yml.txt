@@ -1,0 +1,17 @@
+name: Compile JOSS paper
+
+on: [push, pull_request]
+
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    name: Compile paper
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compile paper
+        uses: openjournals/openjournals-draft-action@master
+        with:
+          journal: joss
+          paper-path: paper/paper.md
