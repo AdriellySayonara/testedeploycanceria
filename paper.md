@@ -75,7 +75,7 @@ While general-purpose medical imaging libraries exist, few offer specialized, va
 
 
 
-Breast cancer is the most prevalent cancer among women worldwide [@sung2021]. Despite advances in screening, challenges such as accessibility, patient discomfort, and radiation exposure remain — especially in developing regions [@inca2022]. Infrared thermography offers a safe, non-invasive, low-cost alternative but suffers from subjective interpretation and lack of standardized analysis tools [@singh2020].
+Breast cancer is the most prevalent cancer among women worldwide [@sung2021]. Despite advances in screening, challenges such as accessibility, patient discomfort, and radiation exposure remain — especially in developing regions [@inca2022, @santana2018breast, @macedo2021breast]. Infrared thermography offers a safe, non-invasive, low-cost alternative but suffers from subjective interpretation and lack of standardized analysis tools [@singh2020].
 
 
 
