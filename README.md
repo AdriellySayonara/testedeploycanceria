@@ -4,7 +4,7 @@
 [!\[Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [!\[DOI](https://zenodo.org/badge/1062213182.svg)](https://doi.org/10.5281/zenodo.17180534)
 
-> \\\*\\\*A Python library for computer-aided diagnosis of breast cancer using infrared thermography. Implements a hybrid AI approach combining transfer learning (CNNs) with classical ML classifiers.\\\*\\\*
+> *A Python library for computer-aided diagnosis of breast cancer using infrared thermography. Implements a hybrid AI approach combining transfer learning (CNNs) with classical ML classifiers.*
 
 `ThermoBreastAI` is a research software library designed for the scientific community working in medical imaging and AI-assisted diagnostics. It provides a modular, extensible framework to extract discriminative features from breast thermograms using pre-trained deep learning models (MobileNetV2, VGG19, ResNet) and classify them using classical machine learning algorithms (Random Forest, KNN, Naive Bayes).
 
