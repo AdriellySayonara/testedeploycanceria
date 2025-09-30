@@ -1,65 +1,64 @@
 ---
-# Title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification'
+title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification'
 
-# tags:
+tags:
+  - medical imaging
+  - breast cancer
+  - infrared thermography
+  - transfer learning
+  - computer-aided diagnosis
+  - deep learning
+  - machine learning
+  - python
 
-- medical imaging
-- breast cancer
-- infrared thermography
-- transfer learning
-- computer-aided diagnosis
-- deep learning
-- machine learning
-- python
+authors:
+  - name: Rian Rabelo de Azevedo
+    orcid: 0009-0003-1816-9576
+    affiliation: "1"
+  - name: Adrielly Sayonara de Oliveira Silva
+    orcid: 0009-0004-2220-8053
+    affiliation: "2"
+  - name: José Barbosa de Araújo Neto
+    orcid: 0009-0007-4994-1695
+    affiliation: "2"
+  - name: Camila Tiodista de Lima
+    orcid: 0009-0007-6013-7059
+    affiliation: "2"
+  - name: Flávio Secco Fonseca
+    orcid: 0000-0003-4956-1135
+    affiliation: "1"
+  - name: Ana Clara Gomes da Silva
+    orcid: 0000-0002-2823-5763
+    affiliation: "2"
+  - name: Clarisse Lima
+    orcid: 0000-0003-1198-8627
+    affiliation: "2"
+  - name: Maíra Araújo de Santana
+    orcid: 0000-0002-1796-7862
+    affiliation: "2"
+  - name: Juliana Carneiro Gomes
+    orcid: 0000-0002-0785-0767
+    affiliation: "2"
+  - name: Giselle Machado Magalhães Moreno 
+    orcid: 0000-0003-4076-3494
+    affiliation: "2"
+  - name: Wellington Pinheiro dos Santos
+    orcid: 0000-0003-2558-6602
+    affiliation: "1,2"
 
-# authors:
-- name: Rian Rabelo de Azevedo
-  orcid: 0009-0003-1816-9576
-  affiliation: "1"
-- name: Adrielly Sayonara de Oliveira Silva
-  orcid: 0009-0004-2220-8053
-  affiliation: "2"
-- name: José Barbosa de Araújo Neto
-  orcid: 0009-0007-4994-1695
-  affiliation: "2"
-- name: Camila Tiodista de Lima
-  orcid: 0009-0007-6013-7059
-  affiliation: "2"
-- name: Flávio Secco Fonseca
-  orcid: 0000-0003-4956-1135
-  affiliation: "1"
-- name: Ana Clara Gomes da Silva
-  orcid: 0000-0002-2823-5763
-  affiliation: "2"
-- name: Clarisse Lima
-  orcid: 0000-0003-1198-8627
-  affiliation: "2"
-- name: Maíra Araújo de Santana
-  orcid: 0000-0002-1796-7862
-  affiliation: "2"
-- name: Juliana Carneiro Gomes
-  orcid: 0000-0002-0785-0767
-  affiliation: "2"
-- name: Giselle Machado Magalhães Moreno 
-  orcid: 0000-0003-4076-3494
-  affiliation: "2"
-- name: Wellington Pinheiro dos Santos
-  orcid: 0000-0003-2558-6602
-  affiliation: "1 , 2"
+affiliations:
+  - name: Graduate Program in Computer Engineering, University of Pernambuco, Brazil
+    index: 1
+  - name: Department of Biomedical Engineering, Federal University of Pernambuco, Brazil
+    index: 2
 
-# affiliations:
-
-- name: Graduate Program in Computer Engineering, University of Pernambuco, Brazil
-  index: 1
-- name: Department of Biomedical Engineering, Federal University of Pernambuco, Brazil
-  index: 2
-  date: 12 May 2025
-  bibliography: paper.bib
+date: 12 May 2025
+bibliography: paper.bib
 ---
 
 # Summary
 
-**ThermoBreastAI** is a Python library for computer-aided diagnosis of breast cancer using infrared thermography. It implements a hybrid artificial intelligence approach that combines transfer learning — using frozen pre-trained convolutional neural networks (MobileNetV2, VGG19, ResNet) for feature extraction — with classical machine learning classifiers (Random Forest, KNN, Naive Bayes) for diagnostic prediction. Originally developed to support the research presented in [@azevedo2025], this library provides a modular, extensible, and reproducible framework for researchers working on thermal breast cancer screening, particularly valuable in low-resource settings where access to mammography is limited.
+**ThermoBreastAI** is a Python library for computer-aided diagnosis of breast cancer using infrared thermography. It implements a hybrid artificial intelligence approach that combines transfer learning — using frozen pre-trained convolutional neural networks (MobileNetV2, VGG19, ResNet) for feature extraction — with classical machine learning classifiers (Random Forest, KNN, Naive Bayes) for diagnostic prediction. Originally developed to support the research presented in [@azevedo2025], [@santana2018breast], [@macedo2021breast], this library provides a modular, extensible, and reproducible framework for researchers working on thermal breast cancer screening, particularly valuable in low-resource settings where access to mammography is limited.
 
 While general-purpose medical imaging libraries exist, few offer specialized, validated pipelines for thermographic analysis. **ThermoBreastAI** fills this gap by providing exact implementations of a hybrid AI workflow optimized for small medical datasets, enabling reproducible research and clinical decision support.
 
@@ -222,7 +221,7 @@ python -m pytest tests -v
 
 
 
-This work was developed as part of the Master’s program at Universidade de Pernambuco, with support from Hospital das Clínicas da UFPE for dataset access. We thank the open-source communities of Python, TensorFlow, scikit-learn, and pytest.
+This work was developed as part of the Master’s program at Universidade de Pernambuco, with support from Hospital das Clínicas da UFPE for dataset access. We thank the open-source communities of Python, TensorFlow, scikit-learn, and pytest. This software is released under the GNU General Public License v3.0 to ensure proper attribution to the original authors and to uphold the principles of ethical and reciprocal reuse in scientific software.
 
 
 
