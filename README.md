@@ -1,6 +1,6 @@
 # ThermoBreastAI: Hybrid AI for Breast Thermography Classification
 
-[!\[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg )](https://www.gnu.org/licenses/gpl-3.0 )
 [!\[Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [!\[DOI](https://zenodo.org/badge/1062213182.svg)](https://doi.org/10.5281/zenodo.17180534)
 
@@ -100,5 +100,4 @@ If you use ThermoBreastAI in your research, please cite the software and the ori
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) — see the LICENSE file for details.
