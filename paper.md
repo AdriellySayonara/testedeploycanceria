@@ -1,5 +1,5 @@
 ---
-title: 'ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification'
+title: "ThermoBreastAI: A Hybrid AI Library for Breast Thermography Classification"
 
 tags:
   - medical imaging
@@ -39,7 +39,7 @@ authors:
   - name: Juliana Carneiro Gomes
     orcid: 0000-0002-0785-0767
     affiliation: "2"
-  - name: Giselle Machado Magalhães Moreno 
+  - name: Giselle Machado Magalhães Moreno
     orcid: 0000-0003-4076-3494
     affiliation: "2"
   - name: Wellington Pinheiro dos Santos
@@ -62,16 +62,9 @@ bibliography: paper.bib
 
 While general-purpose medical imaging libraries exist, few offer specialized, validated pipelines for thermographic analysis. **ThermoBreastAI** fills this gap by providing exact implementations of a hybrid AI workflow optimized for small medical datasets, enabling reproducible research and clinical decision support.
 
-
-
-
 # Statement of Need
 
-
-
 Breast cancer is the most prevalent cancer among women worldwide [@sung2021]. Despite advances in screening, challenges such as accessibility, patient discomfort, and radiation exposure remain — especially in developing regions [@inca2022]. Infrared thermography offers a safe, non-invasive, low-cost alternative but suffers from subjective interpretation and lack of standardized analysis tools [@singh2020].
-
-
 
 Existing AI tools for thermography are often:
 
@@ -81,7 +74,9 @@ Existing AI tools for thermography are often:
 
 - Lacking modularity, making extension or comparison difficult.
 
+In contrast, the medical imaging community benefits from several high-quality open-source libraries that support reproducibility and transparency, such as CleanX for radiology image cleanup [@Moore2022CleanX], COVID-19 Lung Segmentation models [@Biondi2021COVID19LungSeg], the deep learning toolbox ivadomed [@gros2020ivadomed], pylinac for radiotherapy QA [@kerns2023pylinac], and PlatiPy, a processing and analysis toolkit for medical imaging in Python [@chlap2023platipy].
 
+However, none of these tools are designed for thermography, and no reusable library exists that implements a hybrid deep learning + classical machine learning workflow specifically tailored to thermal breast imaging.
 
 **ThermoBreastAI** addresses these gaps by providing:
 
@@ -93,19 +88,11 @@ Existing AI tools for thermography are often:
 
 4. **Full test coverage and documentation** — enabling reproducibility and community contribution.
 
-
-
 # State of the Field
-
-
 
 The application of artificial intelligence to breast thermography has gained traction in recent years, with studies demonstrating promising results using both classical machine learning and deep learning approaches.
 
-
-
 Early work by [@vasconcelos2018] used statistical interval features and classical classifiers (e.g., SMO, Random Forest) on the HC/UFPE dataset, achieving 93.4% accuracy in binary classification. More recent studies have employed end-to-end CNNs: [@ekici2020] used a custom CNN architecture on UFF data to achieve 95.8% accuracy, while [@rosliadar2019] and [@chaves2020] applied fine-tuning to models like DenseNet and VGG19, reporting accuracies up to 100% and 77.5%, respectively.
-
-
 
 However, these approaches often suffer from critical limitations:
 
@@ -115,27 +102,19 @@ However, these approaches often suffer from critical limitations:
 
 - **Monolithic design**: Most implementations are scripts or notebooks, not modular libraries.
 
-
-
 **ThermoBreastAI** advances the field by:
 
 - Releasing a **fully open-source, tested, and documented library**.
 
-- Introducing a **hybrid architecture\*\* that freezes CNN weights to prevent overfitting — a design choice validated by 100% sensitivity on clinical data.
+- Introducing a \*\*hybrid architecture\*\* that freezes CNN weights to prevent overfitting — a design choice validated by 100% sensitivity on clinical data.
 
 - Providing **standardized evaluation metrics** (accuracy, sensitivity, specificity) and **automated hyperparameter tuning** via `GridSearchCV`.
 
-
 # Software Description / Functionality
-
-
 
 **ThermoBreastAI** offers a comprehensive suite of tools for preprocessing, feature extraction, classification, and evaluation of breast thermograms. It combines an intuitive Python interface with robust machine learning backends.
 
-
 # Key Features
-
-
 
 - **Preprocessing**: Automatic stripping of thermal metadata and resizing to 224x224 pixels for compatibility with pre-trained CNNs.
 
@@ -149,11 +128,7 @@ However, these approaches often suffer from critical limitations:
 
 - **Reproducibility**: Includes sample data and unit tests (`pytest`) to validate installation and core functionality.
 
-
-
 # Example Usage
-
-
 
 ```python
 
@@ -195,11 +170,7 @@ print(f"Diagnosis: {'Malignant' if prediction\[0] == 1 else 'Healthy'}")
 
 ```
 
-
-
 # Installation \& Testing
-
-
 
 ```bash
 
@@ -215,16 +186,8 @@ python -m pytest tests -v
 
 ```
 
-
-
 # Acknowledgements
-
-
 
 This work was developed as part of the Master’s program at Universidade de Pernambuco, with support from Hospital das Clínicas da UFPE for dataset access. We thank the open-source communities of Python, TensorFlow, scikit-learn, and pytest. This software is released under the GNU General Public License v3.0 to ensure proper attribution to the original authors and to uphold the principles of ethical and reciprocal reuse in scientific software.
 
-
-
 # References
-
-
